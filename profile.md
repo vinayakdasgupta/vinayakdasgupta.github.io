@@ -71,18 +71,20 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 <u>Conference Papers (recent)</u>
 
 <ul>
-<li>‘Materiality and Metadata of Digitised Photographs: A Theoretical Inquiry’ at Digital Humanities 2016, Krakow, Poland, 2016</li>
-<li>‘Notes from the Transcription Desk: Modes of engagement between the community and the resource of the Letters of 1916’ at Digital Humanities 2016, Krakow, Poland, 2016</li>
+<li><a href ="http://dh2016.adho.org/abstracts/">‘Materiality and Metadata of Digitised Photographs: A Theoretical Inquiry’</a> at Digital Humanities 2016, Krakow, Poland, 2016</li>
+<li><a href ="http://dh2016.adho.org/abstracts/">‘‘Notes from the Transcription Desk: Modes of engagement between the community and the resource of the Letters of 1916’</a> at Digital Humanities 2016, Krakow, Poland, 2016</li>
 <li>‘The Many Lives of Photographs: The Image and the Object as Digital Data’ at Symposium on Research in the Digital Age, The Long Room Hub, Trinity College Dublin, 2015</li>
-<li>‘The Material and the Immaterial in an Age of Anxiety’ at Digital Material Conference, Galway, 2015</li>
+<li><a href ="https://www.nuigalway.ie/mooreinstitute/site/view/2042/">‘The Material and the Immaterial in an Age of Anxiety’</a> at Digital Material Conference, Galway, 2015</li>
+<li>‘Considering Materiality: A Reflection of Images in Transformation’ at University of Cork, 2014</li>
+<li><a href ="https://dh2014.org/program/abstracts/">‘Readings of a Photograph: Cognition and Access’</a> at Digital Humanities 2014, Lausanne, 2014</li>
 </ul>
 
 <u>Publications</u>
 
 <ul>
-<li>‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’, peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
-<li>Commissioned review of Online Humanities Scholarship: The Shape of Things to Come, ed. Jerome McGann, Houston, Texas: Connexions, 2011. EQUAL: The Book Issue, Vol. 2, issue 1, January 2015</li>
-<li>Series of Photographs on the Book Trade in Calcutta, India, in Kolkata, Book City: Readings, Fragments and Images. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
+<li>[‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’]({{ site.url }}/pubs/The-Aftermath-of-Digitization.pdf), peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
+<li><a href ="http://www.projectequal.net/equal/images/files/E-QUAL_news_vol_II_Issue_I.pdf">Commissioned review of Online Humanities Scholarship: The Shape of Things to Come</a>, ed. Jerome McGann, Houston, Texas: Connexions, 2011. EQUAL: The Book Issue, Vol. 2, issue 1, January 2015</li>
+<li><a href = Series of Photographs on the Book Trade in Calcutta, India, in <a href = "https://books.google.ie/books/about/Kolkata_book_city.html?id=V9OeSQAACAAJ&redir_esc=y">Kolkata, Book City: Readings, Fragments and Images</a>. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
 </ul>
 	
 <u>Honours</u>
