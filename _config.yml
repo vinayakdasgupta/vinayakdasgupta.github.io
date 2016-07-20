@@ -9,7 +9,7 @@
 title: Vinayak Das Gupta
 email: Vinayak[dot]dasGupta[at]nuim[dot]ie
 description: > # this means to ignore newlines until "baseurl:"
-  This is my blogspace. I don't blog very often, but when I do, it is usually on my research. You can expect to read posts related to Digital Humanities; specifically, I am interested in early photography, data strcutures, data analysis and visualization. Views are my own etc. etc. etc. 
+  This is my blogspace. I don't blog very often, but when I do, it is usually on my research. You can find more about me and my research at http://vinayakdasgupta.com. Here, you can expect to read posts related to Digital Humanities; specifically, I am interested in early photography, data strcutures, data analysis and visualization. Views are my own etc. etc. etc. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: bilusaurus
