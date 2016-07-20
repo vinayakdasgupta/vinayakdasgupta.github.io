@@ -74,7 +74,7 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 
 <ul>
 <li><a href ="http://dh2016.adho.org/abstracts/">‘Materiality and Metadata of Digitised Photographs: A Theoretical Inquiry’</a> at Digital Humanities 2016, Krakow, Poland, 2016</li>
-<li><a href ="http://dh2016.adho.org/abstracts/">‘‘Notes from the Transcription Desk: Modes of engagement between the community and the resource of the Letters of 1916’</a> at Digital Humanities 2016, Krakow, Poland, 2016</li>
+<li><a href ="http://dh2016.adho.org/abstracts/">‘Notes from the Transcription Desk: Modes of engagement between the community and the resource of the Letters of 1916’</a> at Digital Humanities 2016, Krakow, Poland, 2016</li>
 <li>‘The Many Lives of Photographs: The Image and the Object as Digital Data’ at Symposium on Research in the Digital Age, The Long Room Hub, Trinity College Dublin, 2015</li>
 <li><a href ="https://www.nuigalway.ie/mooreinstitute/site/view/2042/">‘The Material and the Immaterial in an Age of Anxiety’</a> at Digital Material Conference, Galway, 2015</li>
 <li><a href = "https://vimeo.com/109023606">‘Considering Materiality: A Reflection of Images in Transformation’</a> at University of Cork, 2014</li>
