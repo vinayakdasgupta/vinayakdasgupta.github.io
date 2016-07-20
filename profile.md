@@ -10,12 +10,13 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 
 <strong>Résumé</strong>
 
-Academic Qualifications
-Ph.D. in Digital Humanities, Trinity College Dublin, Ireland, 2016
-M.A. in English Literature, Jadavpur University, India, 2009
-B.A. in English Literature, Jadavpur University, India, 2007
+<u>Academic Qualifications</u>
 
-<underline>Research</underline>
+Ph.D. in Digital Humanities, <a href = "http://www.tcd.ie/">Trinity College Dublin</a>, Ireland, 2016
+M.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2009
+B.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2007
+
+<u>Research</u>
 
 <ul>
 <li>Postdoctoral Research Fellow, Maynooth University, October 2016 to Present</li>
@@ -23,17 +24,17 @@ B.A. in English Literature, Jadavpur University, India, 2007
 <li>Research Assistant, Trinity College Dublin, December 2012 to February 2013</li>
 </ul>
 
-<underline>Projects</underline>
+<u>Projects</u>
 <ul>
 <li>Photo-circulation and Photographic Ontologies, October 2015 – Pesent</li>
-<li>Data Scientist and Workflow Coordinator, The Letters of 1916, October 2015 – Present</li>
-<li>Software Solutions Developer, Contested Memories: The Battle of Mount Street Bridge, October 2015 to Present</li>
-<li>Primary Web Architect and Co-editor, South Asia Digital Humanities (sādh), 2014 to Present</li>
-<li>Curator & Primary Web Architect, Recalling Jewish Calcuta, 2014</li>
-<li>Project Staff, Bichitra: Online Tagore Variorum, 2011</li>
+<li>Data Scientist and Workflow Coordinator, <a href = "http://letters1916.maynoothuniversity.ie/">The Letters of 1916</a>, October 2015 – Present</li>
+<li>Software Solutions Developer, <a href = "http://mountstreet1916.ie/">Contested Memories: The Battle of Mount Street Bridge</a>, October 2015 to Present</li>
+<li>Primary Web Architect and Co-editor, <a href = "http://sa-dh.info/">South Asia Digital Humanities (sādh)</a>, 2014 to Present</li>
+<li>Curator & Primary Web Architect, <a href = "http://www.jewishcalcutta.in/index.php">Recalling Jewish Calcuta</a>, 2014</li>
+<li>Project Staff, <a href = "http://bichitra.jdvu.ac.in/index.php">Bichitra: Online Tagore Variorum</a>, 2011</li>
 </ul>
 
-<underline>Teaching</underline>
+<u>Teaching</u>
 
 <ul>
 <li>Lecturer and course coordinator for Creating Digital Humanities Artefacts (AFF609A), Maynooth University, 2016</li>
@@ -46,26 +47,26 @@ B.A. in English Literature, Jadavpur University, India, 2007
 <li>Module lecturer on text analysis, School of Cultural Texts and Records, Jadavpur University Calcutta, 2013-14</li>
 </ul>
 
-<underline>Workshop</underline>
+<u>Workshop</u>
 
 <li>Workshop instructor, ‘Data-mining the Semantic Web and Visualizing the Results’, Arts Technology Research Lab, Trinity College Dublin, Ireland, May 2015</li>
 <li>Workshop instructor, ‘XML, TEI, and Data Visualization’, Babes-Bolyai University, Cluj, Romania, April – May 2015</li>
 <li>Workshop instructor, ‘Spatial Data Visualization’, Queens University Belfast, Northern Ireland, March 2015</li>
 
-<underline>Technical Proficiency</underline>
+<u>Technical Proficiency</u>
 
 <ul>
-<li>Metadata attribution (with a focus on standards for visual resources </li>
+<li>Metadata attribution (with a focus on standards for visual resources)</li>
 <li>Structuring data with Linked Data technologies</li>
-<li>XML technologies including Text Encoding Initiative (TEI) </li>
+<li>XML technologies including <a href = "http://www.tei-c.org/index.xml">Text Encoding Initiative (TEI)</a> </li>
 <li>Relational databases & Graph databases</li>
 <li>Database query langauges inlcuding SQL & SPARQL</li>
-<li>Statistical analysis with R</li>
-<li>Programming with Python & Javascript</li>
+<li>Statistical analysis with <a href = "https://www.r-project.org/">R</a></li>
+<li>Programming with <a href = "https://www.python.org/">Python</a> & Javascript</li>
 <li>Web development with HTML, CSS, and related Javascript frameworks</li>
 </ul>
 
-<underline>Conference Papers (recent)</underline>
+<u>Conference Papers (recent)</u>
 
 <ul>
 <li>‘Materiality and Metadata of Digitised Photographs: A Theoretical Inquiry’ at Digital Humanities 2016, Krakow, Poland, 2016</li>
@@ -74,16 +75,16 @@ B.A. in English Literature, Jadavpur University, India, 2007
 <li>‘The Material and the Immaterial in an Age of Anxiety’ at Digital Material Conference, Galway, 2015</li>
 </ul>
 
-<underline>Publications</underline>
+<u>Publications</u>
 
 <li>‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’, peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
 <li>Commissioned review of Online Humanities Scholarship: The Shape of Things to Come, ed. Jerome McGann, Houston, Texas: Connexions, 2011. EQUAL: The Book Issue, Vol. 2, issue 1, January 2015</li>
 <li>Series of Photographs on the Book Trade in Calcutta, India, in Kolkata, Book City: Readings, Fragments and Images. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
 	
-<underline>Honours</underline>
+<u>Honours</u>
 
 <ul>
-<li>Paul Fortier Prize nominee</li>
-<li>Postdoctoral Fellowship Award, Digital Repository of Ireland</li>
-<li>PRTLI V Digital Arts and Humanities Scholarship</li>
+<li><a href = "http://adho.org/awards/paul-fortier-prize">Paul Fortier Prize nominee</a></li>
+<li>Postdoctoral Fellowship Award, <a href = "http://www.dri.ie/">Digital Repository of Ireland</a></li>
+<li><a href = "https://www.tcd.ie/trinitylongroomhub/themes/digital-humanities/">PRTLI V Digital Arts and Humanities Scholarship</a></li>
 </ul>
