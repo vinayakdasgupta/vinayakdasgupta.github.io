@@ -12,9 +12,11 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 
 <u>Academic Qualifications</u>
 
-Ph.D. in Digital Humanities, <a href = "http://www.tcd.ie/">Trinity College Dublin</a>, Ireland, 2016
-M.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2009
-B.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2007
+<ul>
+<li>Ph.D. in Digital Humanities, <a href = "http://www.tcd.ie/">Trinity College Dublin</a>, Ireland, 2016</li>
+<li>M.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2009</li>
+<li>B.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur University, India</a>, 2007</li>
+</ul>
 
 <u>Research</u>
 
@@ -77,9 +79,11 @@ B.A. in English Literature, <a href = "http://www.jaduniv.edu.in/">Jadavpur Univ
 
 <u>Publications</u>
 
+<ul>
 <li>‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’, peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
 <li>Commissioned review of Online Humanities Scholarship: The Shape of Things to Come, ed. Jerome McGann, Houston, Texas: Connexions, 2011. EQUAL: The Book Issue, Vol. 2, issue 1, January 2015</li>
 <li>Series of Photographs on the Book Trade in Calcutta, India, in Kolkata, Book City: Readings, Fragments and Images. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
+</ul>
 	
 <u>Honours</u>
 
