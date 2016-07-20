@@ -82,9 +82,9 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 <u>Publications</u>
 
 <ul>
-<li>[‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’]({{ site.url }}/pubs/The-Aftermath-of-Digitization.pdf), peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
+<li><a href = "https://github.com/vinayakdasgupta/vinayakdasgupta.github.io/blob/master/pubs/The-Aftermath-of-Digitization.pdf">‘The Aftermath of Digitization: Studying the Synecdochic Photograph from the British Raj’</a>, peer-reviewed, Critical Imprints, Department of English Loreto College: Kolkata, 2015</li>
 <li><a href ="http://www.projectequal.net/equal/images/files/E-QUAL_news_vol_II_Issue_I.pdf">Commissioned review of Online Humanities Scholarship: The Shape of Things to Come</a>, ed. Jerome McGann, Houston, Texas: Connexions, 2011. EQUAL: The Book Issue, Vol. 2, issue 1, January 2015</li>
-<li><a href = Series of Photographs on the Book Trade in Calcutta, India, in <a href = "https://books.google.ie/books/about/Kolkata_book_city.html?id=V9OeSQAACAAJ&redir_esc=y">Kolkata, Book City: Readings, Fragments and Images</a>. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
+<li>Series of Photographs on the Book Trade in Calcutta, India, in <a href = "https://books.google.ie/books/about/Kolkata_book_city.html?id=V9OeSQAACAAJ&redir_esc=y">Kolkata, Book City: Readings, Fragments and Images</a>. ed. Jennie Renton and Sria Chatterjee. Kolkata: Textualities, 2009</li>
 </ul>
 	
 <u>Honours</u>
