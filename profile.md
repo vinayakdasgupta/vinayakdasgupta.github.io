@@ -51,9 +51,11 @@ I am a Postdoctoral Research Fellow in <a href = "https://www.maynoothuniversity
 
 <u>Workshop</u>
 
+<ul>
 <li>Workshop instructor, ‘Data-mining the Semantic Web and Visualizing the Results’, Arts Technology Research Lab, Trinity College Dublin, Ireland, May 2015</li>
 <li>Workshop instructor, ‘XML, TEI, and Data Visualization’, Babes-Bolyai University, Cluj, Romania, April – May 2015</li>
 <li>Workshop instructor, ‘Spatial Data Visualization’, Queens University Belfast, Northern Ireland, March 2015</li>
+</ul>
 
 <u>Technical Proficiency</u>
 
