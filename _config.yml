@@ -15,5 +15,8 @@ twitter_username: bilusaurus
 github_username:  vinayakdasgupta
 profile: http://vinayakdasgupta.com
 
+# Google services
+google_analytics: UA-80994099-1
+
 # Build settings
 markdown: kramdown
