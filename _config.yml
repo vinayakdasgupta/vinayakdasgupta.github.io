@@ -1,26 +1,2 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Vinayak Das Gupta
-email: Vinayak(dot)dasGupta(at)nuim(dot)ie
-description: > # this means to ignore newlines until "baseurl:"
-  I blog about subjects related to technology and the humanities. Specifically, I tend to write about early photography, photo-collections, data-structures, data analysis and visualisation etc. I try not to write about what I had for breakfast.
-url: "http://vinayakdasgupta.github.io" # the base hostname & protocol for your site
-twitter_username: bilusaurus
-github_username:  vinayakdasgupta
-profile: http://vinayakdasgupta.com
-
-# Google services
-google_analytics: UA-80994099-1
-
-# Build settings
 markdown: kramdown
-
-#Sitemap
-
-gems: jekyll-sitemap
+permalink: pretty
