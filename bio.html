@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio – Vinayak Das Gupta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Habibi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .bio-box {
+      border: 1px solid #ccc;
+      padding: 2rem;
+      max-width: 760px;
+      margin: 3rem auto 1rem auto;
+      font-size: 1rem;
+      background-color: #fafafa;
+    }
+    .controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+      gap: 1rem;
+      font-family: 'Habibi', serif;
+    }
+    .controls button {
+      background: none;
+      border: 1px solid #aaa;
+      padding: 0.3rem 0.6rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .controls button:disabled {
+      color: #aaa;
+      border-color: #eee;
+      cursor: default;
+    }
+    .word-count {
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .copy-button {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 style="text-align:center; font-family:'Habibi', serif;">Biography</h1>
+
+    <div class="bio-box" id="bioBox">
+      <button class="copy-button" onclick="copyBio()" title="Copy to clipboard">Copy</button>
+      <p id="bioText"></p>
+    </div>
+
+    <div class="controls">
+      <button id="shortenBtn" onclick="adjustBio(-1)">−</button>
+      <span class="word-count" id="wordCount">200 words</span>
+      <button id="lengthenBtn" onclick="adjustBio(1)">+</button>
+    </div>
+  </main>
+
+  <footer>
+    Not everything here is finished. That’s the point. Written by Vinayak Das Gupta and ChatGPT.
+  </footer>
+
+  <script>
+    const bios = {
+      100: "Vinayak Das Gupta writes, teaches, and occasionally builds things that don’t always hold. His work explores archives, digital tools, and memory systems—both technical and personal. He teaches at Shiv Nadar University.",
+      200: "Vinayak Das Gupta teaches in the Department of English at Shiv Nadar University. His work moves between literature, infrastructure, and digital systems—thinking through archives, public memory, and the afterlives of media. He has worked on projects like Bichitra, Anvay, and Recalling Jewish Calcutta, and writes often about care, decay, and failure as forms of attention. This biography, like most of his projects, is a fragment, not a summary.",
+      300: "Vinayak Das Gupta is a writer, researcher, and teacher based at Shiv Nadar University. His work moves between literature, memory, infrastructure, and digital humanities. He is interested in things that don’t quite work: fragile archives, decaying platforms, mislabelled photographs. He has created public memory projects, built tools for Bengali topic modelling, and written about the aesthetics and ethics of preservation. Much of his work sits at the intersection of attention and failure—what we try to hold, and what slips through."
+    };
+
+    let wordLevels = [100, 200, 300];
+    let current = 1;
+
+    function updateBio() {
+      const count = wordLevels[current];
+      document.getElementById('bioText').innerText = bios[count];
+      document.getElementById('wordCount').innerText = `${count} words`;
+      document.getElementById('shortenBtn').disabled = current === 0;
+      document.getElementById('lengthenBtn').disabled = current === wordLevels.length - 1;
+    }
+
+    function adjustBio(direction) {
+      current += direction;
+      updateBio();
+    }
+
+    function copyBio() {
+      navigator.clipboard.writeText(document.getElementById('bioText').innerText)
+        .then(() => alert('Copied to clipboard!'));
+    }
+
+    updateBio();
+  </script>
+</body>
+</html>
