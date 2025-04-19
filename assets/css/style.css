@@ -54,32 +54,33 @@ nav a:last-child {
   margin-right: 0;
 }
 
-
 .toc {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem; /* increase this value to widen the gap */
   margin-top: 3rem;
 }
 
 .entry {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;        /* align all content to top */
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.75rem 0;
+  border-bottom: none;
 }
 
 .entry .number {
   font-family: 'Habibi', serif;
-  font-weight: bold;
   margin-right: 1rem;
   flex-shrink: 0;
-  min-width: 2.5rem;
+  line-height: 1.4;
 }
 
 .entry .title {
   flex-grow: 1;
+  line-height: 1.4;
 }
 
 .entry .title div:first-child {
@@ -94,11 +95,24 @@ nav a:last-child {
 
 .entry .link {
   font-size: 1.25rem;
-  text-decoration: none;
-  color: #111;
   margin-left: 1rem;
   flex-shrink: 0;
+  line-height: 1.4;              /* this aligns it with the title */
+  padding-top: 0.15rem;          /* tiny adjustment if needed */
 }
+
+.page-title {
+  font-family: 'Habibi', serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 16rem;
+  margin-bottom: 2rem;
+  color: #111;
+  padding-left: 2rem;
+}
+
+
+
 
 footer {
   max-width: 760px;
@@ -118,4 +132,12 @@ footer {
   font-size: 0.85rem;
   color: #888;
   font-style: italic;
+}
+
+/* Responsive tweak for smaller screens */
+@media screen and (max-width: 600px) {
+  .page-title {
+    margin-top: 4rem;       /* reduce top space on mobile */
+    padding-left: 1.5rem;   /* align left more tightly */
+  }
 }
