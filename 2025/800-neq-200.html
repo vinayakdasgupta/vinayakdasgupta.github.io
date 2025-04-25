@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>800 ≠ 200 – Vinayak Das Gupta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Habibi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="/contents.html">Contents</a>
+      <a href="/introduction.html">Introduction</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/writings.html">Writings</a>
+      <a href="/teaching.html">Teaching</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/superpad.html">Super Pad</a> <!-- Links back to main -->
+    </div>
+  </nav>
+
+  <main>
+    <h1>800 ≠ 200: The Panic and the Log Line</h1>
+
+    <section class="blog-post">
+
+        <p>It began, as these things often do, with a log file. It was followed by a panic attack.</p>
+        <p>Late one evening, I was going over training logs for <em>anvay</em> — my Bengali topic modelling tool — when I saw this line:<br>
+        <code>merging changes from 200 documents into a model of 800 documents</code></p>
+        <p>Something inside me stopped. I had claimed, quite confidently, in a paper submitted to a reputed peer-reviewed journal that <em>anvay</em> could process up to 800 documents. That it did so with a large vocabulary, over a million tokens, and in 62 seconds. Just to put it in context, the Gensim library (on which <em>anvay</em> is developed), out of the box, is about six times slower. Mallet (another popular topic modelling tool) is much, much slower. So, this was important to me. I had timed it. I had tested it. I had written about it. But this line suggested that something else was happening. That Gensim, the library handling the topic model, was only using 200 documents. And worse, it wasn't raising an error. It was merging them. I was caught off-guard.</p>
+        <p>This wasn’t just a bug. If true, it meant that everything I had claimed, all the benchmarks, all the performance tests, all the carefully worded assertions about scalability and robustness was wrong.</p>
+        <p>The panic that followed was entirely disproportionate and also completely familiar. A kind of tight, academic horror. Not because a tool might be broken, but because a mistake might have already been published. Because the act of writing had already fossilised something I might now have to recant.</p>
+        <p>I went line by line through the code. I turned off all filters. I rechecked the tokenizer. I reran the same data under different configurations. Still: 200. I began rehearsing how I might write back to the editors. <br>
+        <em>‘I regret to inform you that the benchmarks were inaccurate...’</em></p>
+        <p>The turning point came, strangely enough, not from insight, but from exhaustion. I reduced the <code>chunksize</code> parameter — the number of documents Gensim processes in a single batch during training — from 200 to 64.</p>
+        <p>The log now read:<br>
+        <code>merging changes from 64 documents into a model of 800 documents</code></p>
+        <p>That was it. That was all. The first number was the current chunk. The second was the total model. Gensim had never truncated anything. The system had always worked.</p>
+        <p>The line was never proof of error. It was evidence of function. I simply didn't know how to read it.</p>
+        <p>The <code>chunksize</code> parameter in Gensim’s LDA controls how many documents are processed in each batch during training. This is clear enough. What was unclear to me is this: when you see a log like “merging changes from 200 documents into a model of 800 documents,” it doesn’t mean only 200 documents were used. It means that Gensim has just processed one batch (of 200) and is now integrating that batch’s updates into the full 800-document model. The phrase reflects the incremental, online nature of training, where the global model is gradually updated from successive chunks. It’s a normal part of how <code>LdaMulticore</code> handles scalability and memory efficiency. I am still unsure if that line is the best way to communicate this.</p>
+        <p>This would be a minor story if not for what it revealed about the emotional structure of academic work. The fear was not technical. It was social. It was the fear of being wrong in public. Of having claimed something and having it quietly unravel.</p>
+        <p>There is a pressure in scholarly software to be unimpeachable. To be right, and to be right early. To anticipate every misunderstanding, every failure mode. But code isn’t like that. Neither is writing.</p>
+        <p>What I had was a system that worked. What I lacked, for a moment, was the confidence to believe that I hadn’t faked it.</p>
+        <p>What held up, in the end, was not just the pipeline. It was the process. <br>
+        <em>anvay</em> wasn’t broken; I just needed to trust that I had done the work in the right way.</p>
+      </section>
+
+    <nav class="post-nav">
+      <div>
+        <a href="/superpad.html">← Back to Super Pad</a>
+      </div>
+      <div>
+        <a href="/super-pad/2025/when-the-system-surprises-you/">When the System Surprises You →</a>    
+    </div>
+    </nav>
+
+  </main>
+
+  <footer>
+    <div class="footer-line1">Not everything here is finished. That’s the point.</div>
+    <div class="footer-line2">Written by Vinayak Das Gupta and ChatGPT, 2025.</div>
+  </footer>
+</body>
+</html>
