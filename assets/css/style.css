@@ -141,3 +141,29 @@ footer {
     padding-left: 1.5rem;   /* align left more tightly */
   }
 }
+
+.super-pad-entry {
+  margin-bottom: 2.5rem;
+}
+
+.super-pad-entry h3 {
+  font-family: 'Habibi', serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.super-pad-entry a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.super-pad-entry a:hover {
+  text-decoration: underline;
+}
+
+.super-pad-blurb {
+  font-family: 'Adamina', serif;
+  font-size: 1rem;
+  color: #777;
+  margin: 0;
+}
