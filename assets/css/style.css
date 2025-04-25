@@ -175,3 +175,13 @@ footer {
 .super-pad-entry a:hover {
   text-decoration: underline;
 }
+
+/* All site-wide links: calm them down */
+a {
+  text-decoration: none;
+  color: inherit; /* Makes links the same colour as surrounding text */
+}
+
+a:hover {
+  text-decoration: underline;
+}
