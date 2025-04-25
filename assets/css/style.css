@@ -167,3 +167,11 @@ footer {
   color: #777;
   margin: 0;
 }
+
+.super-pad-entry a {
+  color: inherit; /* inherit the normal body text colour */
+}
+
+.super-pad-entry a:hover {
+  text-decoration: underline;
+}
