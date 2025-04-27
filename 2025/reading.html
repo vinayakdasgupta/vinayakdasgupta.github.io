@@ -1,0 +1,88 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Small structures for thinking about systems, memory, and form — by Vinayak Das Gupta.">
+  <title>On Hallucinations – Vinayak Das Gupta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Habibi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="/contents.html">Contents</a>
+      <a href="/introduction.html">Introduction</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/writings.html">Writings</a>
+      <a href="/teaching.html">Teaching</a>
+      <a href="/superpad.html">Super Pad</a>
+       <!-- Links back to main -->
+    </div>
+  </nav>
+  
+<main>
+
+<h1>Reading without Guarantees</h1>
+
+<section class="blog-post">
+
+  <p>The relationship between language, meaning, and technical mediation has undergone a profound shift. Computational models increasingly structure how we encounter, interpret, and produce language, even as they unsettle older assumptions about reading and writing. This essay reflects on that shift through a concrete experience: faced with hundreds of Bengali texts, far too many to read individually with care, I needed a way to sense their structure at a distance without collapsing under their sheer scale. But in pursuing this, I became the architect of a process that displaced meaning from language: a heretical act for a literature scholar.</p>
+
+  <p>Topic modelling offers a computational method for reading. It does not read in the human sense; it does not interpret, question, or follow an argument. Instead, it treats texts as unordered collections of words, recording how probable it is for certain terms to appear together; from those patterns, a set of thematic clusters are produced. Each cluster, or "topic", is characterised by a distribution of words that statistically tend to occur together across the corpus. The most common method for doing this is called Latent Dirichlet Allocation, or LDA, though the particular algorithm matters less than the underlying assumption it shares with most computational models of language: that the meaning of a document can be abstracted from its syntax, its sequence, even its voice, and can instead be mapped as a set of probabilities over vocabulary.</p>
+
+  <p>The system I built, <em>anvay</em>, belongs to this lineage. It processes and classifies; it arranges words into topics based on patterns of co-occurrence, treating documents not as arguments to be followed but as fields of tokens to be reorganised. In technical terms, this is called the "bag of words" model, and it is fundamental not only to LDA but to a wider shift in how we have come to think about language: not as an expressive medium, rooted in human subjectivity, but as a statistical distribution whose internal regularities can be discovered and measured without reference to meaning or intention.</p>
+
+  <p>Early formulations of distant reading, from Moretti's literary maps to Jockers' work on macroanalysis, embraced this abstraction as a methodological liberation, a way of discerning patterns that lay beyond the reach of traditional hermeneutic methods. Within that context, the reduction of texts to quantifiable features seemed not a betrayal of meaning but a means of encountering new kinds of meaning at a different scale. At first, I treated it as a necessary compromise. LDA was a tool, after all, and tools simplify the world in order to act upon it. But as I continued working, tuning parameters, interpreting topic clusters, watching models produce combinations both plausible and bizarre, I began to sense that the compromise was not local to topic modelling. It was structural. It belonged not to LDA, nor even to the humanities’ cautious embrace of computation, but to a deeper shift that had already taken place, one that became impossible to ignore with the rise of generative AI.</p>
+
+  <p>Like topic models, large language models also treat language as a field of statistical probabilities. Both are grounded in the same basic principle: that meaning is not an inherent property of sequences, but an emergent property of distributions. Whether clustering documents or generating sentences, these systems operate by modelling the likelihood of word co-occurrences, abstracting from syntax and sequence. What these reveal is that writing itself has been quietly displaced from its traditional moorings. The tether between language and meaning, long assumed to be natural, almost ontological, has frayed.</p>
+
+  <p>As Wendy Chun reminds us, technical systems do not simply replace earlier practices; they sediment them, even as they displace their original meanings. The forms and logics of computational language—statistical association, operational manipulation—persist even when the cultural memory of their emergence fades. Language, once tethered to intention and sequence, becomes undead: animated not by human meaning, but by infrastructural logics that continue to operate without needing conscious endorsement.</p>
+
+  <p>Much of the current discourse around large language models falls into familiar polarities: celebration of their creative potential on the one hand, warnings of cultural collapse on the other. Both framings, though oppositional, assume that language retains a stable relation to meaning, and that models either enhance or endanger that relation. What I want to suggest, instead, is that the deeper shift has already occurred. The tether between language and meaning has been fraying for far longer than generative AI has existed; what these systems expose is not a new crisis, but the culmination of processes long underway.</p>
+
+  <p>This shift is not simply a matter of scale or speed. It marks a deeper change in how language is structured. In traditional reading, words are connected by meaning: a phrase unfolds because one idea evokes or necessitates another. In computational modelling, by contrast, words are connected by probability: one token follows another because, statistically, it tends to. Coherence, once a semantic phenomenon, becomes a probabilistic event. This is not an accident of particular models; it is the fundamental logic of their operation. Language ceases to be a vehicle for carried meanings and becomes a field of distributed likelihoods. What we encounter, when reading machine-generated text, is not the residue of an author's intention but the afterimage of statistical association.</p>
+
+  <p>Friedrich Kittler, writing decades before the appearance of large language models, saw this displacement coming. For him, language was never simply a human phenomenon; it was a technical operation, entangled with the media systems that recorded, stored, and transmitted it. Human beings did not invent language in order to express themselves, but rather found themselves using the materials and protocols made available by the technical infrastructures that shaped the possibilities of inscription and transmission. Once language is operationalised, once it becomes a sequence of signals manipulable by non-human actors, the figure of the author, the authority of meaning, even the structure of interpretation itself, begins to unravel. The author becomes less an originator than a relay point, meaning becomes less a stable property than a contingent effect, and reading transforms from an act of understanding into an encounter with signals that must be navigated without guarantees.</p>
+
+  <p>This process was not sudden, and it was not confined to the age of computation. In the nineteenth century, the telegraph detached language from voice and physical presence, reducing communication to a sequence of discrete electrical impulses optimised for transmission speed rather than semantic depth. The typewriter mechanised writing itself, regulating hand movement into a uniform system of key-strikes and standardised glyphs, turning the act of inscription into a form of industrial production. Phonography, radio, and photography all took human expression and folded it into technical circuits of storage and dissemination. Printing had done this too, but it preserved enough of the aura of the written word to allow older assumptions about authorship and meaning to persist. With each successive medium, the operationalisation of language became more explicit, and the margins for human intentionality narrowed. Computation, in particular, completed this abstraction by reducing language to code, executable and analysable without reference to any originating consciousness.</p>
+
+  <p>Large language models are only the latest, and perhaps the most unflinching, participants in this history. They reveal without apology that language can be generated, extended, and reconfigured without human presence. If meaning is no longer a property secured by human intention but an event that arises, temporarily and unstably, from technical operations, then the ability to control or manipulate those operations becomes newly decisive. The detachment of language from its traditional human anchors does not necessarily democratise interpretation; it also opens new pathways for misinformation, for the large-scale generation of plausible but untethered discourse, for the strategic saturation of communication channels with signals that do not require coherence to be effective.</p>
+
+  <p>Authority no longer rests in the authenticity of a voice or the coherence of an argument, but in the logistical properties of transmission. Those with access to the largest infrastructures — corporations building foundation models, states weaponising language for disinformation — find themselves in possession of new and subtle forms of influence. A machine trained on uneven and historically biased data, like GPT-4, can propagate and even amplify distortions without malice or awareness; networks of automated accounts can flood public discourse with fragments that need no coherence, only repetition. In this sense, operationalisation is not only a technical fact but a political condition, reshaping the terms under which meaning can be contested, claimed, or refused.</p>
+
+  <p>There have been efforts, even within computational modelling, to resist the bag-of-words abstraction. Approaches that emphasise embodied cognition, or dynamical systems models of language, seek to recover some sense of continuity between language and lived experience. They argue that meaning arises not from the mere juxtaposition of tokens but from the interaction between organism and environment, from situated practices of movement, perception, and affect. Yet such models remain marginal within large-scale natural language processing, partly because they are computationally expensive and partly because they refuse the simplifications that make statistical modelling so efficient. In practice, most systems continue to treat language as a manipulable substrate, indifferent to its anchorage in human bodies, histories, and contingencies. LDA, for all its utility, belongs firmly within this lineage: it abstracts language into distributions, not in order to understand it, but in order to make it operable at scale.</p>
+
+  <p>It would be a mistake to think that the displacement of traditional anchors — author, intention, argument — results in the disappearance of meaning, as we might understand it. Meaning is not abolished by operationalisation. It mutates. As Katherine Hayles argues, cognition itself exceeds conscious human thought; it emerges through the interactions of humans and technical systems, operating below the threshold of awareness. In the same way, meaning in computational language emerges not from deliberate semantic construction but from the statistical dynamics of systems that "read" and "write" without consciousness. In systems where structure is no longer mandatory, where coherence is provisional rather than promised, meaning continues to emerge. Not as a stable property, but as an event: fleeting, contextual, sometimes ironic, sometimes serious.</p>
+
+  <p>A meme, a synthetic image, or a generated poem draws on fragments of structure, and each invites signification. If earlier forms of meaning-making relied on sequence, argument, and the fidelity of form to intention, the new forms rely on pattern-recognition, emotional resonance, and the reader’s capacity to construct coherence where none is guaranteed. The fraying of the tether between language and meaning is not an erasure. It is a mutation. It asks us to attend differently, to become newly responsible to the spaces where meaning still flickers, however briefly.</p>
+
+  <p>This mutation is not only conceptual; it is palpable in practice. Readers engaging with AI-generated poems, synthetic images, or algorithmically composed media often report a different kind of attention: a heightened sensitivity to patterns, echoes, and fleeting resonances, rather than a search for stable arguments or resolved narratives. Instead of following a sequence, the reader navigates a field of signals, assembling coherence from fragments without assuming that coherence is promised. In this emergent landscape, reading itself becomes an act of creative negotiation with probabilities.</p>
+
+  <p>If meaning persists, even as its traditional anchors fall away, then reading too must shift. This is not distant reading, which presumes that meaning remains embedded in large, stable structures, awaiting detection at scale. What is needed now is something else: a reading that begins in the absence of guarantees. A navigation of signals without the assurance of sequence. A willingness to interpret, to construct, to gather fragments, even when no underlying ground is offered.</p>
+
+  <p>Reading becomes less an act of recovery, and more an act of emergence. To read such language is to recognise that meaning is not found, but made; not inherited, but negotiated; not secured, but surfaced, provisionally, before it drifts again. In this landscape, agency persists, but it is no longer sovereign. It does not command language; it navigates its currents. Readers do not recover a buried truth, nor impose a stable order, but improvise coherence from fleeting constellations. Agency becomes a practice of attention, a responsiveness to possibilities that may not endure.</p>
+
+  <p>It is within this landscape that I find myself working, uneasy but fascinated. Building <em>anvay</em> was an act of entering into these operational circuits, of submitting language to processes that neither demand nor acknowledge meaning. To work with these systems is to acknowledge, implicitly, that meaning is no longer secured by the structures we once trusted, and that the human task is no longer to guarantee the truth of language but to navigate the shifting, unstable spaces where language continues to move.</p>
+</section>
+<nav class="post-nav">
+  <div>
+    <a href="/superpad.html">← Back to Super Pad</a>
+  </div>
+  <div>
+    <a href="/2025/800-neq-200.html">Next: 800 ≠ 200: The Panic and the Log Line →</a>
+  </div>
+</nav>
+
+</main>
+
+<footer>
+<div class="footer-line1">Not everything here is finished. That’s the point.</div>
+<div class="footer-line2">Written by Vinayak Das Gupta, designed by ChatGPT, 2025.</div>
+</footer>
+</body>
+</html>
