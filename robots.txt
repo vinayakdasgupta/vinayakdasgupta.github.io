@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vinayakdasgupta.com/sitemap.xml
