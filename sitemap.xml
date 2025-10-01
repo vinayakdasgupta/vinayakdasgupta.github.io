@@ -2,23 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vinayakdasgupta.com/</loc>
-  </url>
-  <url>
-    <loc>https://vinayakdasgupta.com/contents.html</loc>
+    <lastmod>2025-05-25</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://vinayakdasgupta.com/introduction.html</loc>
+    <lastmod>2025-05-25</lastmod>
   </url>
   <url>
     <loc>https://vinayakdasgupta.com/projects.html</loc>
+    <lastmod>2025-05-25</lastmod>
   </url>
   <url>
     <loc>https://vinayakdasgupta.com/writings.html</loc>
+    <lastmod>2025-05-25</lastmod>
   </url>
   <url>
-    <loc>https://vinayakdasgupta.com/contents.html</loc>
+    <loc>https://vinayakdasgupta.com/teaching.html</loc>
+    <lastmod>2025-05-25</lastmod>
   </url>
-    <url>
+  <url>
     <loc>https://vinayakdasgupta.com/superpad.html</loc>
+    <lastmod>2025-05-25</lastmod>
   </url>
 </urlset>
