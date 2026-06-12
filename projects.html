@@ -10,6 +10,171 @@
   <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Habibi&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!-- Structured data -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://vinayakdasgupta.com/#person",
+      "name": "Vinayak Das Gupta",
+      "url": "https://vinayakdasgupta.com"
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "Humanities at Scale",
+      "url": "http://has.dariah.eu/",
+      "description": "An open-source, multilingual platform designed to support community-driven e-learning in the digital arts and humanities, building sustainable infrastructure for pedagogy and training in digital methods across European institutions. Part of DARIAH-EU.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Maynooth University",
+        "address": { "@type": "PostalAddress", "addressCountry": "IE" }
+      },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Researcher",
+        "startDate": "2017",
+        "endDate": "2017"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "Letters of 1916",
+      "url": "https://letters1916.ie/",
+      "description": "Ireland's first public digital humanities project: a crowd-sourced digital archive of letters written between 1 November 1915 and 31 October 1916, bringing together materials from institutional and private collections on the Easter Rising, the Great War, literature, politics, and daily life.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Maynooth University",
+        "address": { "@type": "PostalAddress", "addressCountry": "IE" }
+      },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Software Developer",
+        "startDate": "2015",
+        "endDate": "2017"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "Recalling Jewish Calcutta",
+      "description": "A public memory project documenting the history of the Baghdadi Jewish community in Calcutta, combining oral histories, photographs, and artefacts into a layered portrait of a diasporic community and its archival afterlife.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Trinity College Dublin",
+        "address": { "@type": "PostalAddress", "addressCountry": "IE" }
+      },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Curator",
+        "startDate": "2014",
+        "endDate": "2014"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "The Thomas MacGreevy Archive",
+      "description": "A digital archive of the Irish poet, critic, and curator Thomas MacGreevy, featuring both published and unpublished manuscripts, contributing to modernist studies and the broader field of literary digital archives.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Trinity College Dublin",
+        "address": { "@type": "PostalAddress", "addressCountry": "IE" }
+      },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Curator",
+        "startDate": "2013",
+        "endDate": "2013"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "Bichitra: The Online Tagore Variorum",
+      "url": "http://bichitra.jdvu.ac.in/",
+      "description": "The largest integrated knowledge site devoted to a single author in any language, bringing together most extant versions of Rabindranath Tagore's Bengali and English works, with advanced tools for textual collation across editions — a major contribution to Indian textual scholarship and digital philology.",
+      "about": {
+        "@type": "Person",
+        "name": "Rabindranath Tagore"
+      },
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Jadavpur University",
+        "address": { "@type": "PostalAddress", "addressCountry": "IN" }
+      },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Project Fellow",
+        "startDate": "2011"
+      }
+    },
+
+    {
+      "@type": "ResearchProject",
+      "name": "anvay",
+      "url": "https://dhlab.snu.edu.in/anvay/",
+      "description": "A Bengali topic modelling tool for exploring latent themes in large text collections.",
+      "subjectOf": { "@id": "https://vinayakdasgupta.com/#anvay" },
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Principal Investigator"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "SoftwareApplication", "SoftwareSourceCode"],
+      "@id": "https://vinayakdasgupta.com/#gridocr",
+      "name": "gridOCR",
+      "url": "https://github.com/vinayakdasgupta/gridOCR",
+      "codeRepository": "https://github.com/vinayakdasgupta/gridOCR",
+      "programmingLanguage": "Python",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Windows, macOS, Linux",
+      "isAccessibleForFree": true,
+      "description": "gridOCR is a layout engine and desktop OCR tool for digitising historical printed books and periodicals. It runs entirely locally: it splits double-page spreads, detects text regions, suppresses bleed-through, runs Tesseract OCR, and allows region-level correction before exporting clean plain text.",
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Principal Investigator"
+      }
+    },
+
+    {
+      "@type": ["ResearchProject", "WebSite"],
+      "name": "The Battle of Mount Street Bridge",
+      "url": "https://mountstreet1916.ie/",
+      "description": "A public history project that reconstructs a single day of the 1916 Easter Rising inside a game engine, combining a virtual city, physics-based simulation, military-history consultation, and spatial modelling to teach history through immersive reconstruction.",
+      "member": {
+        "@type": "Role",
+        "member": { "@id": "https://vinayakdasgupta.com/#person" },
+        "roleName": "Researcher"
+      }
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "overdub",
+      "url": "https://overdub.vercel.app",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Web",
+      "isAccessibleForFree": true,
+      "description": "A browser-based multitrack recorder. Runs as a progressive web app and exports to WAV.",
+      "creator": { "@id": "https://vinayakdasgupta.com/#person" }
+    }
+  ]
+}
+</script>
 
 </head>
 <body>

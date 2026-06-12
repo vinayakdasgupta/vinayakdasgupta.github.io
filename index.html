@@ -13,68 +13,82 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Vinayak Das Gupta",
-  "url": "https://vinayakdasgupta.com",
-  "image": "https://snu.edu.in/site/assets/files/5599/profile_1.1600x0.webp",
-  "sameAs": [
-    "https://www.wikidata.org/wiki/Q140172319",
-    "https://orcid.org/0009-0008-5623-1226",
-    "https://scholar.google.com/citations?user=fwBY51gAAAAJ&hl=en",
-    "https://vidwan.inflibnet.ac.in/profile/551029",
-    "https://snu.edu.in/faculty/vinayak-das-gupta/",
-    "https://research.snu.edu.in/researcher/vinayak-das-gupta",
-    "https://github.com/vinayakdasgupta",
-    "https://hcommons.org/members/vdasgupta/",
-    "https://www.linkedin.com/in/vinayakdasgupta",
-    "https://www.twitter.com/vinayakdasgupta",
-    "https://www.instagram.com/bilusaurus/"
-  ],
-  "jobTitle": "Associate Professor of Digital Humanities",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Shiv Nadar Institution of Eminence"
-  },
-  "alumniOf": [
-    { "@type": "CollegeOrUniversity", "name": "Trinity College Dublin" },
-    { "@type": "CollegeOrUniversity", "name": "Jadavpur University" }
-  ],
-  "knowsAbout": [
-    "Digital Humanities",
-    "Text Analysis",
-    "Topic Modelling",
-    "Public Memory",
-    "Digital Archives",
-    "Visual Culture",
-    "Cultural Analytics",
-    "Photographic History of South Asia"
-  ],
-  "description": "Researcher in digital humanities, archives, visual culture, and computational text analysis. Associate Professor at Shiv Nadar University."
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vinayakdasgupta.com/#website",
+      "url": "https://vinayakdasgupta.com",
+      "name": "Vinayak Das Gupta",
+      "publisher": { "@id": "https://vinayakdasgupta.com/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vinayakdasgupta.com/#person",
+      "name": "Vinayak Das Gupta",
+      "url": "https://vinayakdasgupta.com",
+      "image": "https://snu.edu.in/site/assets/files/5599/profile_1.1600x0.webp",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q140172319",
+        "https://orcid.org/0009-0008-5623-1226",
+        "https://scholar.google.com/citations?user=fwBY51gAAAAJ&hl=en",
+        "https://vidwan.inflibnet.ac.in/profile/551029",
+        "https://snu.edu.in/faculty/vinayak-das-gupta/",
+        "https://research.snu.edu.in/researcher/vinayak-das-gupta",
+        "https://github.com/vinayakdasgupta",
+        "https://hcommons.org/members/vdasgupta/",
+        "https://www.linkedin.com/in/vinayakdasgupta",
+        "https://www.twitter.com/vinayakdasgupta",
+        "https://www.instagram.com/bilusaurus/"
+      ],
+      "jobTitle": "Associate Professor of Digital Humanities",
+      "worksFor": {
+        "@type": "EducationalOrganization",
+        "name": "Shiv Nadar Institution of Eminence"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Trinity College Dublin" },
+        { "@type": "CollegeOrUniversity", "name": "Jadavpur University" }
+      ],
+      "knowsAbout": [
+        "Digital Humanities",
+        "Text Analysis",
+        "Topic Modelling",
+        "Public Memory",
+        "Digital Archives",
+        "Visual Culture",
+        "Cultural Analytics",
+        "Photographic History of South Asia"
+      ],
+      "description": "Researcher in digital humanities, archives, visual culture, and computational text analysis. Associate Professor at Shiv Nadar Institution of Eminence."
+    },
+    {
+      "@type": ["SoftwareApplication", "SoftwareSourceCode"],
+      "@id": "https://vinayakdasgupta.com/#anvay",
+      "name": "anvay",
+      "alternateName": "Anvay: Bengali Topic Modelling Tool",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "url": "https://dhlab.snu.edu.in/anvay/",
+      "installUrl": "https://dhlab.snu.edu.in/anvay/",
+      "codeRepository": "https://github.com/vinayakdasgupta/anvay",
+      "programmingLanguage": "Python",
+      "creator": { "@id": "https://vinayakdasgupta.com/#person" },
+      "inLanguage": "en",
+      "description": "anvay is a Bengali topic modelling tool that helps researchers explore latent themes in large text collections through interactive visualisations, document-level insights, and structured reporting.",
+      "screenshot": "https://vinayakdasgupta.com/assets/img/anvay_screenshot.png",
+      "license": "https://opensource.org/license/mit/",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "citation": { "@id": "https://doi.org/10.21105/joss.08641" }
+    }
+  ]
 }
 </script>
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "anvay",
-  "alternateName": "Anvay: Bengali Topic Modelling Tool",
-  "applicationCategory": "Natural Language Processing",
-  "operatingSystem": "Web",
-  "url": "https://github.com/vinayakdasgupta/anvay",
-  "creator": {
-    "@type": "Person",
-    "name": "Vinayak Das Gupta",
-    "url": "https://vinayakdasgupta.com"
-  },
-  "inLanguage": "en",
-  "description": "anvay is a Bengali topic modelling tool that helps researchers explore latent themes in large text collections through interactive visualisations, document-level insights, and structured reporting.",
-  "screenshot": "https://vinayakdasgupta.com/assets/img/anvay_screenshot.png",
-  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "isAccessibleForFree": true
-}
-</script>
-
 
 </head>
 
@@ -134,7 +148,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
